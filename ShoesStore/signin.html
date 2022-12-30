@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Sign-up</title>
+    <style>
+      *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html,body{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #4e2804;
+    align-content: center;
+    min-height: 100vh;
+    height: 100%;
+}
+.navbar-brand {
+	    color: rgba(255, 192, 167, 0.932);
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 95vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("./2.jpg") center/cover no-repeat;
+}
+.content{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 100px;
+    background: #777;
+    margin: 20px 0;
+}
+.content p{
+    top: 60px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    opacity: 0.7;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #4e2804;
+}
+.button {
+  background-color :#4e2804;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+    background-color: #f59f7d;
+}
+
+/*****************/
+
+@media(max-width: 992px){
+    .navbar-brand{
+        font-size: 15px;
+        top:10px;
+        left:15px; 
+    }
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+   
+    
+}
+    </style>
+  </head>
+  <body>
+    <a href="file:///D:/New%20folder/projects/hasirEcomm/salman%20khan/ShoesStore/index.html"><p class="navbar-brand" href="#">Shoepify</p> </a>
+
+    <form class="dewaar">
+      <div class="form-group" >
+        <label for="exampleInputEmail1"><p class="text-white">Email address</p></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1"> <p class="text-white">Password</p></label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"><p class="text-white">Check me out</p></label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
